@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 	.header .btn {
 	    margin-top: 60px;
 	    font-weight: bold;
-	} 	
+	}
 	.img-header-brand  {
 		width: 20%;
 	}
@@ -96,12 +96,12 @@ h1, h2, h3, h4, h5, h6 {
 	.btn:hover, .list-inline-item a:hover {
 	    background: rgba(0,0,0,0);
 	    color: #3AAA64	;
-	    
+
 	}
 	.header .profile-content .social a:hover {
 	    background: #778492;
 	    box-shadow:  0 0 0 7px #fff;
-	}	
+	}
 	svg:not(:root).svg-inline--fa {
 	    overflow: visible;
 	}
@@ -161,10 +161,11 @@ h1, h2, h3, h4, h5, h6 {
 		padding-top: 1rem!important;
 		padding-bottom: 1rem!important;
 	}
-	
+
 	.seccion .seccion-inherit {
 	    background: #fff;
 	    padding: 30px;
+		padding-bottom: 10px;
 	}
 	.seccion {
 	    margin-bottom: 30px;
@@ -173,8 +174,8 @@ h1, h2, h3, h4, h5, h6 {
 	.seccion-container {
 	    padding-top: 60px;
 	    padding-bottom: 0px;
-	}	
-	
+	}
+
 	.limite .item .titulo a {
 	    color: #778492;
 	}
@@ -200,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	/* HABILIDADES */
-	
+
 	.habilidades .intro {
 	    margin-bottom: 30px;
 	}
@@ -257,6 +258,57 @@ footer .fa-heart {
     color: #fb866a;
 }
 
+.heart {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transform: rotate(45deg);
+  animation: animateHeart 1.2s infinite;
+}
+.heart::before, .heart::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: #f44336;
+  position: absolute;
+  border-radius: 50%;
+}
+.heart::before {
+  left: -25px;
+}
+.heart::after {
+  top: -25px;
+}
+
+@keyframes animateHeart {
+  0% {
+    transform: rotate(45deg) scale(0.8);
+  }
+  5% {
+    transform: rotate(45deg) scale(0.9);
+  }
+  10% {
+    transform: rotate(45deg) scale(0.8);
+  }
+  15% {
+    transform: rotate(45deg) scale(1);
+  }
+  50% {
+    transform: rotate(45deg) scale(0.8);
+  }
+  100% {
+    transform: rotate(45deg) scale(0.8);
+  }
+}
+
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 @media (max-width: 767.98px){
 	.header .profile-image {
@@ -282,3 +334,5 @@ footer .fa-heart {
 	    float: none !important;
 	}
 }
+
+
