@@ -237,7 +237,9 @@ h1, h2, h3, h4, h5, h6 {
 	    position: relative;
 	    top: -1px;
 	}
-
+	h2.port1 {
+		color: #043879;
+	}
 	.CONTACTO li {
 	    margin-bottom: 30px;
 	}
