@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	.header .profile-content .social a:hover {
 	    background: #778492;
-	    box-shadow:  0 0 0 7px #fff;
+	    box-shadow:  0 0 0 7px #3AAA64;
 	}
 	svg:not(:root).svg-inline--fa {
 	    overflow: visible;
