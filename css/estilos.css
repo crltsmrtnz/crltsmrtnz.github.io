@@ -128,7 +128,8 @@ a.btn .svg-inline--fa {
 
 .header .profile-content .social a:hover {
     background: #778492;
-    box-shadow: 0 0 0 7px #3AAA64;
+    box-shadow: 0 0 0 7px #101886;
+    color: #101886;
 }
 
 svg:not(:root).svg-inline--fa {
@@ -178,8 +179,8 @@ svg:not(:root).svg-inline--fa {
 /* SECCCION */
 a.btn-cta-secondary,
 .btn-cta-secondary {
-    background: #479FC8;
-    border: 1px solid #479FC8;
+    background: #101886;
+    border: 1px solid #101886;
     color: #fff;
     font-weight: 600;
 }
@@ -187,13 +188,13 @@ a.btn-cta-secondary,
 h3.titulo a:hover,
 .desc a:hover,
 .list-unstyled a:hover {
-    background: #479FC8;
-    border: 1px solid #479FC8;
-    color: #fff;
+    background: #dae3e6;
+    border: 1px solid #101886;
+    color: #101886;
     font-weight: 600;
+    box-shadow: inset 0 0 0 3px #fff; 
     border-radius: 20px;
     padding: 10px;
-    box-shadow: inset 0 0 0 3px #fff;
 }
 
 h3.titulo,
@@ -290,7 +291,7 @@ h3.titulo,
 }
 
 h2.port1 {
-    color: #043879;
+    color: #101886;
 }
 
 .CONTACTO li {
