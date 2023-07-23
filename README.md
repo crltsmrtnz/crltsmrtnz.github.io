@@ -8,9 +8,7 @@
 
 - 👯 I’m looking to collaborate on **Flutter Project**
 
-- 👨‍💻 All of my projects are available at [**Porfolio Actual**](https://crltsmrtnz.github.io) o ver la web app [**En Desarrollo**](https://crlts-mrtnz.web.app) alojada en Firebase, donde compartiré proyectos y noticias interesantes. ¡Visítalo para descubrir más!"
-
-
+- 👨‍💻  All my projects are available at [**Current Portfolio**](https://crltsmrtnz.github.io) or see the [**In Development**](https://crlts-mrtnz.web.app) web application hosted on Firebase, where I will share interesting projects and news. Visit it to find out more!
 
 - 💬 Ask me about **Tecnología**
 
@@ -43,47 +41,8 @@
 
 ## Preview this project 
 
-# https://crlts-mrtnz.web.app
+# crltsmrtnz.github.io
+ </br>
 
-https://crlts-mrtnz.firebaseapp.com </br>
-
-## Getting Started instructions
-<details>
-<summary>Requirements</summary>
-
-| Rank | Languages | Version                      | Dependencia |
-|------|-----------| ---------------------------- |--------|
-|     1| Flutter   | 3.12.0-13.0.pre.37           | N/N | 
-|     2| Dart      | 3.1.0 (build 3.1.0-262.0.dev)| N/N | 
-|     3| Homebrew  | 4.0.26                       | N/N |  
-|     4| N/N       | ^2.14.0                      | firebase_core |
-|     5| N/N       | ^5.1.0                       | google_fonts |
-|     5| N/N       | ^1.1.4+1                     | flutter_social_button |
-|     5| N/N       | ^6.1.11                      | url_launcher |
-
- 
-
-</details>
-
-- Clone
-- Update dependencies
-- Run again 
-    If don't work, try: </br>
-        flutter clean </br>
-        flutter pub get </br>
-# Secctions
-    Home
-        -> Now, game 2048
-        -> Articles
-        -> Updates IT 
-    About me
-        -> Tel
-        -> Email
-        -> Socials  
-    Porfolio
-        -> Game
-        -> Web 
-        -> App 
-        -> Email templates
 
 ![](https://komarev.com/ghpvc/?username=crltsmrtnz&color=blue&style=for-the-badge)
